@@ -1,0 +1,129 @@
+{
+    "$help": "https://aka.ms/terminal-documentation",
+    "$schema": "https://aka.ms/terminal-profiles-schema",
+    "actions": 
+    [
+        {
+            "command": 
+            {
+                "action": "copy",
+                "singleLine": false
+            },
+            "keys": "ctrl+c"
+        },
+        {
+            "command": "paste",
+            "keys": "ctrl+v"
+        },
+        {
+            "command": "find",
+            "keys": "ctrl+shift+f"
+        },
+        {
+            "command": 
+            {
+                "action": "clearBuffer",
+                "clear": "all"
+            },
+            "keys": "ctrl+l"
+        },
+        {
+            "command": 
+            {
+                "action": "splitPane",
+                "split": "auto",
+                "splitMode": "duplicate"
+            },
+            "keys": "alt+shift+d"
+        }
+    ],
+    "copyFormatting": "none",
+    "copyOnSelect": false,
+    "defaultProfile": "{2ece5bfe-50ed-5f3a-ab87-5cd4baafed2b}",
+    "profiles": 
+    {
+        "defaults": 
+        {
+            "bellStyle": "none",
+            "colorScheme": "SynthWave 84",
+            "cursorShape": "underscore",
+            "font": 
+            {
+                "face": "Fira Code Retina",
+                "size": 11
+            },
+            "tabColor": "#FFFFFF"
+        },
+        "list": 
+        [
+            {
+                "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
+                "hidden": false,
+                "name": "PowerShell",
+                "source": "Windows.Terminal.PowershellCore"
+            },
+            {
+                "guid": "{2ece5bfe-50ed-5f3a-ab87-5cd4baafed2b}",
+                "hidden": false,
+                "name": "Git Bash",
+                "source": "Git",
+                "startingDirectory": "c:/code"
+            },
+            {
+                "commandline": "%SystemRoot%\\System32\\cmd.exe",
+                "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+                "hidden": false,
+                "name": "Command Prompt"
+            }
+        ]
+    },
+    "schemes": 
+    [
+        {
+            "background": "#1C1E26",
+            "black": "#16161C",
+            "blue": "#26BBD9",
+            "brightBlack": "#767676",
+            "brightBlue": "#3FC6DE",
+            "brightCyan": "#6BE6E6",
+            "brightGreen": "#3FDAA4",
+            "brightPurple": "#F075B7",
+            "brightRed": "#EC6A88",
+            "brightWhite": "#F2F2F2",
+            "brightYellow": "#FBC3A7",
+            "cursorColor": "#E95678",
+            "cyan": "#59E3E3",
+            "foreground": "#D5D8DA",
+            "green": "#29D398",
+            "name": "Horizon",
+            "purple": "#EE64AE",
+            "red": "#E95678",
+            "selectionBackground": "#FDF0ED",
+            "white": "#CCCCCC",
+            "yellow": "#FAB795"
+        },
+        {
+            "background": "#1C1E26",
+            "black": "#16161C",
+            "blue": "#03EDF9",
+            "brightBlack": "#888888",
+            "brightBlue": "#03EDF9",
+            "brightCyan": "#03EDF9",
+            "brightGreen": "#72F1B8",
+            "brightPurple": "#FF7EDB",
+            "brightRed": "#FE4450",
+            "brightWhite": "#FFFFFF",
+            "brightYellow": "#FEDE5D",
+            "cursorColor": "#FFFFFF",
+            "cyan": "#03EDF9",
+            "foreground": "#FFFFFF",
+            "green": "#72F1B8",
+            "name": "SynthWave 84",
+            "purple": "#FF7EDB",
+            "red": "#FE4450",
+            "selectionBackground": "#FFFFFF",
+            "white": "#FFFFFF",
+            "yellow": "#F97E72"
+        }
+    ]
+}
